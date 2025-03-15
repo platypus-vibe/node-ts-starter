@@ -16,5 +16,8 @@
     "url": "https://github.com/platypus-vibe/node-ts-starter/issues"
   },
   "homepage": "https://github.com/platypus-vibe/node-ts-starter#readme",
-  "description": "Node Typescript Starter"
+  "description": "Node Typescript Starter",
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
 }
