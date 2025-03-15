@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@core":["./src/core"],
+      "@core/*":["./src/core"],
+      "@infrastructure":["./src/infrastructure"],
+      "@infrastructure/*":["./src/infrastructure"],
+      "@application":["./src/application"],
+      "@application/*":["./src/application"],
+    },
+    "types": ["node"],
+    "verbatimModuleSyntax": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts"],
+}
